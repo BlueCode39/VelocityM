@@ -1,0 +1,209 @@
+/* Home */
+
+:root {
+    --mainColor: #A40000;
+    --white: #FFFFFF;
+}
+
+.dark-mode {
+    --white : #282828
+}
+
+body {
+    margin: 0;
+    background-color: var(--white);
+}
+.navbar-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--white);
+    height: 70px;
+}
+
+.logoside img {
+    width: 70px;
+    height: auto;
+}
+
+.searchbar {
+    position: relative;
+    top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    border: solid 1px var(--mainColor);
+    border-radius: 30px;
+}
+.searchbar input {
+    background-color: transparent;
+    font-size: 16px;
+    position: relative;
+    bottom: 5.7px;
+    height: 30px;
+    width: 430px;
+    border-radius: 20px;
+    margin: 10px;
+    border: solid 0px;
+}
+.searchbar img {
+    margin: 10px;
+    right: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.cartnthem {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.car button {
+    background-color: transparent;
+    border: solid 0px;
+}
+.car img{
+    width: 40px;
+    height: auto;
+}
+
+.them {
+    position: relative;
+    top: 1px;
+    right: 20px;
+}
+.them a img {
+    width: 40px;
+    height: auto;
+}
+
+
+.navbar-bottom {
+    background-color: var(--mainColor);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-bottom ul {
+    position: relative;
+    bottom: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-bottom ul li {
+    list-style-type: none;
+    padding-inline: 13px;
+}
+
+.navbar-bottom ul li a {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.navbar-bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.togel {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    margin: 10px;
+    align-items: center;
+    background-color: var(--mainColor);
+    border-radius: 200px;
+    top: 650px;
+}
+.togel img{
+    width: 40px;
+    height: 40px;
+}
+
+.fitur {
+    color: red;
+    font-family: "Roboto Condensed";
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.fitur2 {
+    width: 100%;
+    height: fit-content;
+    background-image: url(banner\ terios.png);
+    background-position: no-repeat;
+    background-size: auto 100%;
+}
+
+.lefty {
+    padding-block: 40px;
+    padding-inline: 100px;
+    color: white;
+    font-family: "Roboto Condensed";
+}
+.lefty h3 {
+    border-top: solid 3px var(--white);
+    font-size: 70px;
+    width: 450px;
+    margin: 10px;
+}
+.lefty p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.lefty button {
+    font-size: 10px;
+    margin-inline: 10px;
+    margin-block: 20px;
+    font-family: "Roboto Condensed";
+    border: none;
+    background-color: red;
+    padding-inline: 66px;
+    padding-block: 10px;
+    color: var(--white);
+
+}
+.lefty button h1 {
+    margin: 0;
+}
+.lefty button:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.garage {
+    margin-top: 100px;
+    color: red;
+    font-family: "Roboto Condensed";
+    font-size: 40px;
+    text-align: center;
+}
+
+.cardhuracan {
+    margin-block: 100px;
+    width: 100%;
+    height: 450px;
+    background-image: url(banner\ huracan.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+.leftyhuracan {
+
+}
