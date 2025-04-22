@@ -230,10 +230,48 @@ body {
     color: var(--black);
 }
 .leftyhuracan h2 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
 }
 .leftyhuracan p {
+    margin-top: 10px;
     font-size: 20px;
 }
+.specs {
+    display: flex;
+    flex-direction: row;
+}
+.powa {
+    margin: 20px;
+}
+.powa .pow{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
 
+.leftyhuracan button {
+    font-size: 10px;
+    font-weight: 500;
+    margin-inline: 10px;
+    margin-block: 20px;
+    font-family: "Roboto Condensed";
+    border: none;
+    width: 200px;
+    padding-block: 10px;
+    background-color: white;
+    color: red;
+    border-radius: 100px;
+    border: red 2px solid;
+
+}
+.leftyhuracan button p {
+    margin: 0;
+}
+.leftyhuracan button:hover {
+    transition: 400ms;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.rightyhuracan
