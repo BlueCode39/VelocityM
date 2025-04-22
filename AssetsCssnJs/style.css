@@ -3,15 +3,22 @@
 :root {
     --mainColor: #A40000;
     --white: #FFFFFF;
+    --black: #000000;
 }
 
 .dark-mode {
-    --white : #282828
+    --white : #282828;
+    --black : #FFFFFF;
 }
 
 body {
     margin: 0;
     background-color: var(--white);
+}
+
+.navall {
+    position: fixed;
+    width: 100%;
 }
 .navbar-top {
     display: flex;
@@ -116,6 +123,7 @@ body {
 }
 
 .banner img{
+    margin-top: 110px;
     width: 100%;
     height: auto;
 }
@@ -134,9 +142,16 @@ body {
 .togel img{
     width: 40px;
     height: 40px;
+    border-radius: 200px;
 }
 .togel input {
     display: none;
+}
+.togel img:hover {
+    transition: 200ms;
+    box-shadow: 0px 0px 18px 0px rgba(164,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(164,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(164,0,0,0.75);
 }
 
 .fitur {
@@ -154,24 +169,24 @@ body {
     background-size: auto 100%;
 }
 
-.lefty {
+.leftyterios {
     padding-block: 40px;
     padding-inline: 100px;
     color: white;
     font-family: "Roboto Condensed";
 }
-.lefty h3 {
-    border-top: solid 3px var(--white);
+.leftyterios h3 {
+    border-top: solid 3px white;
     font-size: 70px;
     width: 450px;
     margin: 10px;
 }
-.lefty p {
+.leftyterios p {
     margin-left: 10px;
     font-size: 20px;
     margin-bottom: 0;
 }
-.lefty button {
+.leftyterios button {
     font-size: 10px;
     margin-inline: 10px;
     margin-block: 20px;
@@ -180,13 +195,14 @@ body {
     background-color: red;
     padding-inline: 66px;
     padding-block: 10px;
-    color: var(--white);
+    color: white;
 
 }
-.lefty button h1 {
+.leftyterios button h1 {
     margin: 0;
 }
-.lefty button:hover {
+.leftyterios button:hover {
+    transition: 400ms;
     background-color: white;
     color: red;
     cursor: pointer;
@@ -209,5 +225,15 @@ body {
     background-size: 100% auto;
 }
 .leftyhuracan {
-
+    margin-left: 50px;
+    font-family: "Roboto Condensed";
+    color: var(--black);
 }
+.leftyhuracan h2 {
+    font-size: 50px;
+    margin: 0;
+}
+.leftyhuracan p {
+    font-size: 20px;
+}
+
