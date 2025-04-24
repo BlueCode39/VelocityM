@@ -382,17 +382,21 @@ body {
 .contactr input {
     margin: 5px;
     height: 30px;
+    border-radius: 10px;
 }
 .contactr textarea {
     margin: 5px;
     height: 150px;
+    border-radius: 10px;
 }
 .contactr button {
     margin: 5px;
     height: 30px;
+    border-radius: 10px;
 }
 .naemform input {
     width: 270px;
     height: 30px;
     margin: 5px;
+    border-radius: 10px;
 }
