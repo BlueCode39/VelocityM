@@ -381,12 +381,15 @@ body {
 }
 .contactr input {
     margin: 5px;
+    height: 30px;
 }
 .contactr textarea {
     margin: 5px;
+    height: 150px;
 }
 .contactr button {
     margin: 5px;
+    height: 30px;
 }
 .naemform input {
     width: 270px;
