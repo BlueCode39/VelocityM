@@ -7,6 +7,7 @@
 }
 
 .dark-mode {
+    transition: 300ms;
     --white : #282828;
     --black : #FFFFFF;
 }
@@ -347,11 +348,103 @@ body {
     background-size: 100% auto;
 }
 
+.wow {
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: "Roboto Condensed";
+}
 
 
 
+/* FOOTER */
 
 
+.footer {
+    margin-top: 100px;
+    padding: 40px;
+    background-color: var(--mainColor);
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+}
+
+.footer-top {
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.leftyfooter {
+    color: white;
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+.rightyfooter {
+    float: right;
+    padding: 10px;
+}
+
+.rightyfooter a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+
+}
+
+.fout {
+    font-weight: 760;
+}
+
+.navbar-footer {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-footer ul {
+    position: relative;
+    bottom: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-footer ul li {
+    list-style-type: none;
+    padding-inline: 13px;
+}
+
+.navbar-footer ul li a {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.navbar-footer ul li a:hover {
+    text-decoration: underline;
+}
 
 
 /* Contact */
@@ -363,38 +456,82 @@ body {
     background-size: 100% auto;
 }
 .h1con {
+    margin-top: 60px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 50px;
-    margin: 20px;
+    font-size: 55px;
     text-align: center;
 }
 
-.contactl {
+.whole {
+    margin-top: 100px;
+}
 
+.contactl {
+    margin-left: 50px;
+    color: white;
+    float: left;
+    font-family: "Roboto Condensed";
+}
+.contactl h2 {
+    font-size: 40px;
+}
+.contactl p {
+    font-size: 20px;
+    width: 400px;
+}
+.contactl a {
+    color: white;
+    text-decoration-color: red;
+    font-size: 18px;
+}
+.contactl .media {
+    margin-top: 20px;
+}
+.contactl .media a img {
+    width: 40px;
+    margin: 5px;
 }
 
 .contactr {
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     float: right;
 }
 .contactr input {
+    font-family: "Roboto Condensed";
     margin: 5px;
+    padding: 5px;
     height: 30px;
+    border: #A40000 2px solid;
     border-radius: 10px;
 }
 .contactr textarea {
+    font-family: "Roboto Condensed";
     margin: 5px;
+    padding: 5px;
     height: 150px;
+    border: #A40000 2px solid;
     border-radius: 10px;
 }
 .contactr button {
+    cursor: pointer;
+    font-family: "Roboto Condensed";
+    border: none;
     margin: 5px;
-    height: 30px;
+    padding: 5px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #A40000;
     border-radius: 10px;
 }
 .naemform input {
+    font-family: "Roboto Condensed";
+    border: #A40000 2px solid;
+    padding: 5px;
     width: 270px;
     height: 30px;
     margin: 5px;
