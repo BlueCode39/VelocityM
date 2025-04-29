@@ -537,3 +537,38 @@ body {
     margin: 5px;
     border-radius: 10px;
 }
+
+
+/* about us */
+
+.NEVAH {
+    margin-block: 150px;
+    text-align: center;
+    color: #A40000;
+    font-size: 100px;
+    font-family: "Roboto Condensed";
+    font-weight: 900;
+}
+.NEVAH span {
+    text-decoration: underline;
+}
+.NEVAH span:hover {
+    transition: 400ms;
+    text-decoration-color: red;
+}
+
+.wuwacontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 50px;
+}
+.wuwa {
+    color: var(--black);
+    font-weight: 400;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+}
