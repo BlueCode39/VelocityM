@@ -572,3 +572,54 @@ body {
     text-align: center;
     width: 500px;
 }
+.wuwa span {
+    font-weight: 900;
+}
+
+.ide {
+    margin-block: 100px;
+}
+
+.abotlefty {
+    float: left;
+    margin-left: 100px;
+}
+.abotlefty h2 {
+    margin: 0;
+    color: var(--mainColor);
+    font-family: "Roboto Condensed";
+    font-size: 50px;
+}
+.abotlefty p {
+    margin-top: 50px;
+    width: 500px;
+    color: var(--black);
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 300;
+}
+.abotlefty button {
+    margin-top: 50px;
+    width: 400px;
+    height: 40px;
+    border: 3px solid #A40000;
+    font-weight: 600;
+    font-family: "Roboto Condensed";
+    color: white;
+    background-color: #A40000;
+    font-size: 20px;
+}
+.abotlefty button:hover {
+    background-color: #FFFFFF;
+    transition: 400ms;
+    color: #A40000;
+}
+
+.abotrighty {
+    margin-right: 100px;
+    float: right;
+}
+.abotrighty img {
+    width: 500px;
+    height: auto;
+}
